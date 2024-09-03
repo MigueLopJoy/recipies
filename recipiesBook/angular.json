@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "recipiesBook": {
+    "recipiesbook": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "recipiesBook:build:production"
+              "buildTarget": "recipiesbook:build:production"
             },
             "development": {
-              "buildTarget": "recipiesBook:build:development"
+              "buildTarget": "recipiesbook:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +68,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "recipiesBook:build"
+            "buildTarget": "recipiesbook:build"
           }
         },
         "test": {
